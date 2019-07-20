@@ -23,3 +23,6 @@ print("His teeth are usually %s depending on the coffee." % my_teeth)
 print ("If I add %d, %d, and %d I get %d." %(my_age, my_height, my_weight, my_age+my_height+my_weight))
 
 
+extra = 'data analyst'
+#2. try more format characters. %r is a very useful one. It's like saying "print this no matter what"
+print("I neeed to practice to get myself better %r on python." % extra)
