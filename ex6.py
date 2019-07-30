@@ -18,25 +18,40 @@
 #your expens by using annoying crptic variable names, so let's get you started being able to 
 #read and write them early on.
 
+
+#Set a string variable with string formatted %10
 x = "There are %d types of people." %10
+#Set a string variable call binary
 binary = "binary"
+#set a string variable called don't
 do_not = "don't"
+#set a string variable with 2 formatted variables
 y = "Those who know %s and those who %s." %(binary, do_not)
 
+#display variable x
 print(x)
+#display vraible y
 print(y)
 
+#display a string with formatted variable x
 print("I said: %r." %x)
+#display a string with a formatted variable y
 print("I also said: '%s'." %y)
 
+#set a boolean variable
 hilarious = False
+#set a string variable with formatted variable inside
 joke_evaluation = "Isn't that joke so funny?! %r"
 
+#concate 2 different variables (string and boolean)
 print(joke_evaluation % hilarious)
 
+#set a string variable as w
 w = "This is the left side of ..."
+#set a string variable as e
 e = "a string with a right side."
 
+#display 2 string variables with operator +
 print(w + e)
 
 p = input("Please type you name: ")
