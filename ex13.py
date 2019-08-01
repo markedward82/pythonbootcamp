@@ -18,13 +18,13 @@ print("Your third variable is:", third)
 
 
 #test my own creation
-a, b, c , d = argv
+#a, b, c , d = argv
 
 #call the script
-print("Testing my code:", a)
-print("This is b:", b)
-print("this is c:", c)
-print("this is d:", d)
+#print("Testing my code:", a)
+#print("This is b:", b)
+#print("this is c:", c)
+#print("this is d:", d)
 
 
 
