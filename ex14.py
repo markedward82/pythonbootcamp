@@ -8,7 +8,7 @@ from sys import argv
 #set argv variables
 script, user_name = argv
 #set a string to a variable
-prompt = '> '
+prompt = '=> '
 
 #made some mistakes on parenthesis
 print(f"Hi, {user_name}, I'm the {script} script.")
