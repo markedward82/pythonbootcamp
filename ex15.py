@@ -19,7 +19,8 @@ print("I'll also ask you to type it agian:")
 #create a variable takes file name user want to open
 file_again = input("=>")
 
-#use open function to read the file name from input and save the reading outcome to a variable
+#use open function to read the file name from input and save the 
+#reading outcome to a variable
 txt_again = open(file_again)
 
 #print the data it reads from the input file name.
